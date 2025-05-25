@@ -4,41 +4,58 @@
 <meta charset="UTF-8">
 <title>Meu Portfólio de Dados</title>
 <style>
-   body { font-family: Arial; margin: 0; padding: 0; }
-   header, footer { background: #222; color: white; text-align: center; padding: 1em; }
-   nav a { color: white; margin: 0 10px; text-decoration: none; }
-   main { padding: 2em; }
+   body {
+     margin: 0;
+     padding: 0;
+     font-family: Arial, sans-serif;
+     background-color: #f9f9f9;
+   }
+   header {
+     background-color: #222;
+     color: white;
+     padding: 20px;
+     text-align: center;
+   }
+   .intro {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 50px;
+     gap: 40px;
+     flex-wrap: wrap;
+   }
+   .foto-perfil {
+     width: 200px;
+     height: 200px;
+     border-radius: 50%;
+     object-fit: cover;
+     border: 4px solid #555;
+   }
+   .frase {
+     max-width: 500px;
+     font-size: 1.4em;
+     color: #333;
+   }
+   footer {
+     background-color: #222;
+     color: white;
+     text-align: center;
+     padding: 10px;
+   }
 </style>
 </head>
 <body>
 <header>
-<h1>Bem-vindo!</h1>
-<nav>
-<a href="index.html">Início</a>
-<a href="#sobre">Sobre</a>
-<a href="#projetos">Projetos</a>
-<a href="#curriculo">Currículo</a>
-</nav>
+<h1>Bem-vindo ao meu portfólio</h1>
 </header>
-<main>
-<section id="sobre">
-<h2>Sobre mim</h2>
-<p>Sou [Seu Nome], entusiasta de dados com foco em análise, Python e visualização de dados.</p>
+<section class="intro">
+<img src="assets/imagens/foto.jpg" alt="Minha Foto" class="foto-perfil">
+<div class="frase">
+<p>Sou apaixonado(a) por transformar dados em decisões. Acredito que cada número conta uma história — e eu adoro contá-las.</p>
+</div>
 </section>
-<section id="projetos">
-<h2>Projetos</h2>
-<ul>
-<li><a href="https://github.com/seuusuario/projeto1">Análise de Vendas com Pandas</a></li>
-<li><a href="https://github.com/seuusuario/projeto2">Dashboard com Power BI</a></li>
-</ul>
-</section>
-<section id="curriculo">
-<h2>Currículo</h2>
-<p><a href="link-do-seu-curriculo.pdf">Baixe meu currículo</a></p>
-</section>
-</main>
 <footer>
-<p>© 2025 - Pedro Henrique Ferreira da Silva</p>
+<p>© 2025 - [Seu Nome]</p>
 </footer>
 </body>
 </html>
