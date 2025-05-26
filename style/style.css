@@ -45,11 +45,10 @@ section {
  margin: auto;
 }
 .intro {
- display: flex;
- align-items: center;
- gap: 40px;
- flex-wrap: wrap;
+ text-align: center;
+ padding: 80px 20px;
  justify-content: center;
+ margin-bottom: 80px;
 }
 .foto-perfil {
  width: 200px;
@@ -88,11 +87,17 @@ footer {
 .bio-texto {
  max-width: 600px;
  color: #333;
+padding-left:10px;
 }
 .valores {
  display: grid;
- grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+ grid-template-columns: repeat(2, 1fr);
  gap: 25px;
+}
+@media (max-width: 700px) {
+ .valores{
+   grid-templates-columns: 1fr;
+ }
 }
 .valor {
  background-color: #f5f0fa;
