@@ -47,9 +47,9 @@ section {
 .intro {
  display: flex;
  aling-items: center;
- min-height:60vh;
+ min-height:100vh;
  text-align: center;
- padding: 80px 20px;
+ padding: 40px 20px;
  justify-content: center;
  margin-bottom: 80px;
 }
@@ -61,7 +61,7 @@ section {
  border: 4px solid #6a1b9a;
 }
 .frase {
- max-width: 500px;
+ max-width: 800px;
  font-size: 1.8em;
  color: #6a1b9a;
  line-height: 1.6;
