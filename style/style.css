@@ -70,3 +70,41 @@ footer {
  text-align: center;
  padding: 15px;
 }
+/* Estilo da seção Sobre Mim */
+.sobre-container {
+ display: flex;
+ align-items: center;
+ flex-wrap: wrap;
+ gap: 30px;
+ margin-bottom: 40px;
+}
+.foto-bio {
+ width: 180px;
+ height: 180px;
+ border-radius: 50%;
+ object-fit: cover;
+ border: 3px solid #6a1b9a;
+}
+.bio-texto {
+ max-width: 600px;
+ color: #333;
+}
+.valores {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+ gap: 25px;
+}
+.valor {
+ background-color: #f5f0fa;
+ border-left: 6px solid #6a1b9a;
+ padding: 20px;
+ border-radius: 8px;
+}
+.valor h3 {
+ color: #6a1b9a;
+ margin-top: 0;
+}
+.valor p {
+ color: #444;
+ font-size: 0.95em;
+}
