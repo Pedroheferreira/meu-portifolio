@@ -44,6 +44,11 @@ nav {
 
   z-index: 10;
 
+  border-top: 1px solid white;
+  
+  margin-top: 10px;
+
+
 }
 
 nav ul {
