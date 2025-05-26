@@ -38,7 +38,9 @@ nav {
 
   padding: 10px 0;
 
-  position: sticky;
+  position: fixed;
+  
+  z-index: 1000; /* garante que fique acima de outros elementos */
 
   top: 0;
 
