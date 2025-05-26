@@ -45,6 +45,9 @@ section {
  margin: auto;
 }
 .intro {
+ display: flex;
+ aling-items: center;
+ min-height:60vh;
  text-align: center;
  padding: 80px 20px;
  justify-content: center;
@@ -87,7 +90,7 @@ footer {
 .bio-texto {
  max-width: 600px;
  color: #333;
-padding-left:10px;
+padding-left:20px;
 }
 .valores {
  display: grid;
