@@ -49,7 +49,9 @@ section {
  aling-items: flex-start;
  min-height:100vh;
  text-align: center;
- padding: 40px 20px;
+ padding-top: 150px;
+ padding-left: 20px;
+ padding-right: 20px;
  justify-content: center;
  margin-bottom: 80px;
 }
@@ -65,7 +67,6 @@ section {
  font-size: 1.8em;
  color: #6a1b9a;
  line-height: 1.6;
- margin-top: 60px;
 }
 footer {
  background-color: #6a1b9a;
