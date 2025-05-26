@@ -22,8 +22,6 @@ body {
 
 header {
 
-
-
   background-color: #6a1b9a;
 
   color: white;
@@ -31,10 +29,6 @@ header {
   padding: 20px;
 
   text-align: center;
-
-  border-bottom: 1px solid white; /* <- aqui está a linha branca */
-
-
 
 }
 
@@ -51,7 +45,8 @@ nav {
   top: 0;
 
   z-index: 10;
-
+  
+  margin-top: 10px;
 
 
 }
@@ -151,4 +146,3 @@ footer {
   padding: 15px;
 
 }
- 
