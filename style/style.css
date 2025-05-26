@@ -23,11 +23,17 @@ body {
 header {
 
 
-  background-color: #6a1b9a;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  border-bottom: 1px solid white; /* <- aqui está a linha branca 
+
+  background-color: #6a1b9a;
+
+  color: white;
+
+  padding: 20px;
+
+  text-align: center;
+
+  border-bottom: 1px solid white; /* <- aqui está a linha branca */
+
 
 
 }
@@ -46,9 +52,6 @@ nav {
 
   z-index: 10;
 
-  border-top: 1px solid white;
-  
-  margin-top: 10px;
 
 
 }
